@@ -1,0 +1,66 @@
+[
+	{
+		"id": "1",
+		"nombre": "cuaderno",
+		"marca": "exitos",
+		"imagen": "img/1.png",
+		"precio": 1200,
+		"descripcion": "cuanderno de hojas exitos reforzadas"
+	},
+	{
+		"id": "2",
+		"nombre": "lapicera",
+		"marca": "bica",
+		"imagen": "img/2.png",
+		"precio": 150,
+		"descripcion": "lapicera de punta refinada"
+	},
+	{
+		"id": "3",
+		"nombre": "corrector",
+		"marca": "bica",
+		"imagen": "img/3.png",
+		"precio": 200,
+		"descripcion": "corregi esos errores sin dejar rastro.elaborado con quimicos de 1ra calidad"
+	},
+	{
+		"id": "4",
+		"nombre": "relga",
+		"marca": "Spizzini",
+		"imagen": "img/4.png",
+		"precio": 4000,
+		"descripcion": "regla de acero de primera calidad estandarizada"
+	},
+	{
+		"id": "5",
+		"nombre": "calculadora",
+		"marca": "cassio",
+		"imagen": "img/5.png",
+		"precio": 8000,
+		"descripcion": "modelo '23 capas de graficar funciones complejas y ondas seno y coseno soidales"
+	},
+	{
+		"id": "6",
+		"nombre": "tablero",
+		"marca": "spizzini",
+		"imagen": "img/6.png",
+		"precio": 8500,
+		"descripcion": "tablero con soporte y regla estandarizados"
+	},
+	{
+		"id": "7",
+		"nombre": "cinta metrica",
+		"marca": "CATT",
+		"imagen": "img/7.png",
+		"precio": 7000,
+		"descripcion": "cinta metalizada y normalizada de 20 metros"
+	},
+	{
+		"id": "8",
+		"nombre": "casco",
+		"marca": "CATT",
+		"imagen": "img/8.png",
+		"precio": 20000,
+		"descripcion": "casco hiperesistivo a fuerzas de aprox 100tm"
+	}
+]

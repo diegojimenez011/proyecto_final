@@ -1,0 +1,150 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #e76800;
+	color: #fff;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1em;
+}
+
+.logo {
+	font-size: 1.5rem;
+	text-transform: uppercase;
+	color: #fff;
+	text-decoration: none;
+}
+
+.button-cart {
+	cursor: pointer;
+}
+
+main {
+	max-width: 800px;
+	margin: 2em auto;
+	text-align: center;
+}
+
+.product-list{
+	list-style: none;
+	margin: 0;
+	padding:0;
+	display:grid;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	grid-auto-rows: 420px;
+	grid-gap: 2em;
+}
+
+.product-list li{
+	border: 1px solid #ccc;
+	padding: 1em;
+}
+
+.product-list img {
+	max-width: 100%;
+	height: 50%;
+}
+
+.product-list h3{
+	margin-top: 0;
+	margin-bottom: 0.5em;
+}
+
+.product-list .product-price {
+	font-weight: bold;
+}
+
+.add-to-cart{
+	
+	border-radius : 5rem;
+	background-color: #e76800;
+	border-color:black;
+}
+.remove,
+.button {
+	display: block;
+	border: none;
+	cursor: pointer;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #333;
+	color: #fff;
+	padding: 1rem 0.8rem;
+	text-decoration: none;
+	transition: background-color 0.2s ease;
+}
+.remove {
+	margin-top: 0;
+	margin-bottom: auto;
+	margin-right: 0;
+}
+
+.add-to-cart:hover,
+.remove:hover,
+.button:hover {
+	background-color: #666;
+}
+
+footer {
+	border-top: 1px solid #333;
+}
+
+footer p {
+	text-align: center;
+}
+
+.productsCart li {
+	border-bottom: 1px solid #333;
+	padding: 1rem;
+	display: flex;
+	list-style: none;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.productContent {
+	padding-left: 1rem;
+}
+
+.productsCart img {
+	display: block;
+	width: 80px;
+	height: auto;
+	object-fit: contain;
+}
+
+.empty {
+	font-size: 2rem;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.counter {
+	width: 120px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.counter .button {
+	width: 30px;
+}
+
+.button {
+	padding: 0.5rem;
+}
+
+
+.lista_productos .lista_productos
+footer {
+	border-top: 1px solid #333;
+}
+
+footer p {
+	text-align: center;
+}
