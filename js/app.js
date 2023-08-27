@@ -1,6 +1,6 @@
 //cargo los productos desde el archivo json en un array vacio con fetch
 let productos = [];
-fetch("../js/productos.json")
+fetch("./js/productos.json")
 	.then(response => response.json())
 	.then(data => {
 		productos = data;
