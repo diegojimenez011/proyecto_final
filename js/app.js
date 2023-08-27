@@ -1,6 +1,6 @@
 //cargo los productos desde el archivo json en un array vacio con fetch
 let productos = [];
-fetch("https://github.com/diegojimenez011/proyecto_final/blob/219914654c77b5f5ccb9ff01cc3ad19c21bab107/js/productos.json")
+fetch("../js/productos.json")
 	.then(response => response.json())
 	.then(data => {
 		productos = data;
@@ -40,6 +40,21 @@ const mostrarProductos = (productos) => {
 //agrego un producto al carrito
 
 const agregarAlCarrito = (id) => {
+	Toastify({
+		text: "Producto Agregado",
+		duration: 3000,
+		destination: "https://github.com/apvarun/toastify-js",
+		newWindow: true,
+		close: true,
+		gravity: "top", // `top` or `bottom`
+		position: "right", // `left`, `center` or `right`
+		stopOnFocus: true, // Prevents dismissing of toast on hover
+		style: {
+			background: "linear-gradient(to right, #e76800, #96c93d)",
+			borderRadius : "5rem",
+		},
+		onClick: function(){} // Callback after click
+	  }).showToast();
 	// Si el producto no está en el carrito lo agregamos
 	if (!carrito.some((producto) => producto.id === id)) {
 		// Buscamos el producto en el array de productos
@@ -152,6 +167,6 @@ const eliminarProducto = (id) => {
 
 const actualizarTotal = (contenedor) => {
 	const total = carrito.reduce((acumulador, producto) => acumulador + producto.precio * producto.cantidad, 0);
-	contenedor.textContent = `Total: $${total}`;
+	contenedor.textContent = `Total a Pagar: $${total}`;
 };
 mostrarCarrito();

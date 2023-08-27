@@ -2,16 +2,23 @@ body {
 	font-family: Arial, sans-serif;
 	margin: 0;
 	padding: 0;
-	
+
 }
 
 header {
 	background-color: #e76800;
 	color: #fff;
 	display: flex;
-	justify-content: space-between;
+	flex-direction: row;
+	justify-content: center;
 	align-items: center;
 	padding: 1em;
+	position: sticky;
+	flex-direction: row;
+}
+.cabecera{
+	display:flex;
+	flex-direction: row;
 }
 
 .logo {
@@ -61,19 +68,20 @@ main {
 }
 
 .add-to-cart{
-	
-	border-radius : 5rem;
-	background-color: #e76800;
-	border-color:black;
+	border-radius: 5rem;
+    background-color: #e76800;
+    text-transform: uppercase;
+    padding: 0.75rem;
 }
 .remove,
 .button {
+	border-radius: 5rem;
 	display: block;
 	border: none;
 	cursor: pointer;
 	margin-left: auto;
 	margin-right: auto;
-	background-color: #333;
+	background-color:#e76800;
 	color: #fff;
 	padding: 1rem 0.8rem;
 	text-decoration: none;
